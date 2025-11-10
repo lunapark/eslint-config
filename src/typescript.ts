@@ -46,7 +46,10 @@ export default defineConfig(
             }],
             "@stylistic/multiline-ternary": ["error", "never"],
             "@stylistic/operator-linebreak": ["error", "after"],
-            "@stylistic/quotes": ["error", "double"],
+            "@stylistic/quotes": ["error", "double", {
+                allowTemplateLiterals: "avoidEscape",
+                avoidEscape: true
+            }],
             "@stylistic/semi": ["error", "always"],
             "@stylistic/template-curly-spacing": ["error", "always"],
             "array-bracket-spacing": ["error", "never"],
