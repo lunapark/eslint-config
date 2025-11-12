@@ -1,6 +1,6 @@
 {
     "name": "@luna-park/eslint-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "private": false,
     "description": "Luna Park eslint config",
     "homepage": "https://luna-park.app",

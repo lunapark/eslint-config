@@ -31,6 +31,7 @@ export default defineConfig(
         rules: {
             "@stylistic/arrow-parens": ["error", "always"],
             "@stylistic/comma-dangle": ["off"],
+            "@stylistic/eol-last": ["error", "always"],
             "@stylistic/indent": ["error", 4],
             "@stylistic/indent-binary-ops": ["error", 4],
             "@stylistic/member-delimiter-style": ["error", {
