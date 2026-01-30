@@ -53,6 +53,9 @@ export default defineConfig(
             }],
             "@stylistic/semi": ["error", "always"],
             "@stylistic/template-curly-spacing": ["error", "always"],
+            "@typescript-eslint/array-type": ["error", {
+                default: "generic"
+            }],
             "array-bracket-spacing": ["error", "never"],
             "arrow-parens": ["error", "always"],
             "arrow-spacing": ["error"],

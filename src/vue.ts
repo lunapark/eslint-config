@@ -16,6 +16,9 @@ export default tseslint.config(
             "vue/html-indent": ["error", 4],
             "vue/no-mutating-props": ["off"],
             "vue/no-v-html": ["off"],
+            "vue/no-v-text-v-html-on-component": ["error", {
+                allow: ["component"]
+            }],
             "vue/require-default-prop": ["off"]
         }
     }
