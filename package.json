@@ -1,6 +1,6 @@
 {
     "name": "@luna-park/eslint-config",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "private": false,
     "description": "Luna Park eslint config",
     "homepage": "https://luna-park.app",
@@ -48,7 +48,7 @@
         "eslint-import-resolver-typescript": "^4.4.4",
         "eslint-plugin-import-x": "^4.16.1",
         "eslint-plugin-simple-import-sort": "^12.1.1",
-        "eslint-plugin-sort-keys-custom-order": "^3.0.0",
+        "eslint-plugin-sort-keys-custom-order": "^3.0.1",
         "eslint-plugin-vue": "^10.7.0",
         "globals": "^17.3.0",
         "jiti": "^2.6.1",

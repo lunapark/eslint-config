@@ -45,8 +45,8 @@ importers:
         specifier: ^12.1.1
         version: 12.1.1(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-sort-keys-custom-order:
-        specifier: ^3.0.0
-        version: 3.0.0(@typescript-eslint/utils@8.55.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))
+        specifier: ^3.0.1
+        version: 3.0.1(@typescript-eslint/utils@8.55.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))
       eslint-plugin-vue:
         specifier: ^10.7.0
         version: 10.7.0(@stylistic/eslint-plugin@5.8.0(eslint@10.0.0(jiti@2.6.1)))(@typescript-eslint/parser@8.55.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(vue-eslint-parser@10.2.0(eslint@10.0.0(jiti@2.6.1)))
@@ -1061,8 +1061,8 @@ packages:
     peerDependencies:
       eslint: '>=5.0.0'
 
-  eslint-plugin-sort-keys-custom-order@3.0.0:
-    resolution: {integrity: sha512-6freBZl0eCH+vZvYLkuOyXhpKAJsHt+uISqw9pdiBkXfD9KwtNCQq9QVzLQKra/w41lv9rrg6MukiQ9HsCX5ZA==}
+  eslint-plugin-sort-keys-custom-order@3.0.1:
+    resolution: {integrity: sha512-0laYBNzWxLQQ0y9CLsGAOlhjZuHyfeMNLNneI5gUi/j+mvLBRPOKI+bcXSrMF5trQSQaW9d+4WJ+e3VJ6IGtYA==}
     peerDependencies:
       '@typescript-eslint/utils': ^8.0.0
       eslint: ^9.0.0
@@ -2720,7 +2720,7 @@ snapshots:
     dependencies:
       eslint: 10.0.0(jiti@2.6.1)
 
-  eslint-plugin-sort-keys-custom-order@3.0.0(@typescript-eslint/utils@8.55.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1)):
+  eslint-plugin-sort-keys-custom-order@3.0.1(@typescript-eslint/utils@8.55.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1)):
     dependencies:
       '@typescript-eslint/utils': 8.55.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
       eslint: 10.0.0(jiti@2.6.1)
