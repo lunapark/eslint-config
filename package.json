@@ -1,6 +1,6 @@
 {
     "name": "@luna-park/eslint-config",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "private": false,
     "description": "Luna Park eslint config",
     "homepage": "https://luna-park.app",
@@ -59,19 +59,19 @@
         "vue": "^3.5.28"
     },
     "peerDependencies": {
-        "@eslint/js": "^9.39.1",
-        "@stylistic/eslint-plugin": "^5.5.0",
-        "@stylistic/stylelint-plugin": "^4.0.0",
-        "@vitejs/plugin-vue": "^6.0.1",
+        "@eslint/js": "^10.0.1",
+        "@stylistic/eslint-plugin": "^5.9.0",
+        "@stylistic/stylelint-plugin": "^5.0.1",
+        "@vitejs/plugin-vue": "^6.0.4",
         "@vue/tsconfig": "^0.8.1",
         "eslint-import-resolver-typescript": "^4.4.4",
         "eslint-plugin-import-x": "^4.16.1",
         "eslint-plugin-simple-import-sort": "^12.1.1",
-        "eslint-plugin-sort-keys-custom-order": "^2.2.1",
-        "eslint-plugin-vue": "^10.5.1",
-        "globals": "^16.4.0",
+        "eslint-plugin-sort-keys-custom-order": "^3.0.1",
+        "eslint-plugin-vue": "^10.8.0",
+        "globals": "^17.3.0",
         "jiti": "^2.6.1",
-        "stylelint": "^16.25.0",
-        "typescript-eslint": "^8.46.3"
+        "stylelint": "^17.3.0",
+        "typescript-eslint": "^8.56.0"
     }
 }
