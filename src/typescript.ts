@@ -56,6 +56,7 @@ export default defineConfig(
             "@typescript-eslint/array-type": ["error", {
                 default: "generic"
             }],
+            "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_", caughtErrorsIgnorePattern: "^_" }],
             "array-bracket-spacing": ["error", "never"],
             "arrow-parens": ["error", "always"],
             "arrow-spacing": ["error"],
@@ -68,6 +69,7 @@ export default defineConfig(
             "indent": ["off"],
             "key-spacing": ["error"],
             "keyword-spacing": ["error"],
+            "no-empty": ["error", { allowEmptyCatch: true }],
             "no-multi-spaces": ["error"],
             "object-curly-spacing": ["error", "always"],
             "prefer-template": ["error"],
