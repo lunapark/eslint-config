@@ -56,6 +56,8 @@ export default defineConfig(
             "@typescript-eslint/array-type": ["error", {
                 default: "generic"
             }],
+            "@typescript-eslint/consistent-type-imports": ["error"],
+            "@typescript-eslint/no-import-type-side-effects": ["error"],
             "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_", caughtErrorsIgnorePattern: "^_" }],
             "array-bracket-spacing": ["error", "never"],
             "arrow-parens": ["error", "always"],
@@ -65,6 +67,7 @@ export default defineConfig(
             "comma-spacing": ["error"],
             "eol-last": ["error", "always"],
             "eqeqeq": ["error", "always"],
+            "import-x/consistent-type-specifier-style": ["error", "prefer-top-level"],
             "import-x/no-named-as-default-member": ["off"],
             "indent": ["off"],
             "key-spacing": ["error"],
