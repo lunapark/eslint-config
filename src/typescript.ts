@@ -65,6 +65,7 @@ export default defineConfig(
             "brace-style": ["error", "stroustrup"],
             "comma-dangle": ["error", "never"],
             "comma-spacing": ["error"],
+            "curly": ["error", "all"],
             "eol-last": ["error", "always"],
             "eqeqeq": ["error", "always"],
             "import-x/consistent-type-specifier-style": ["error", "prefer-top-level"],
@@ -83,7 +84,8 @@ export default defineConfig(
             "sort-keys-custom-order/object-keys": ["error"],
             "sort-keys-custom-order/type-keys": ["error"],
             "space-in-parens": ["error", "never"],
-            "space-infix-ops": ["error"]
+            "space-infix-ops": ["error"],
+            "yoda": ["error"]
         },
         settings: {
             "import-x/parsers": {
