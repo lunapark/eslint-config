@@ -11,9 +11,8 @@ export default defineConfig(
     eslint.configs.recommended,
     tseslint.configs.recommended,
     stylistic.configs.recommended,
-    sortKeysCustomOrder.configs["flat/recommended"],
+    sortKeysCustomOrder.configs.recommended,
     pluginImportX.flatConfigs.recommended,
-
     {
         languageOptions: {
             globals: {

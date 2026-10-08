@@ -1,4 +1,6 @@
-import { defineConfig, type UserConfig } from "vite";
+import dts from "unplugin-dts/vite";
+import type { UserConfig } from "vite";
+import { defineConfig } from "vite";
 
 import packageDefinition from "./package.json";
 
@@ -18,7 +20,10 @@ export default defineConfig(() => {
             rollupOptions: {
                 external: [...Object.keys(packageDefinition.peerDependencies || {}), /^node:/]
             }
-        }
+        },
+        plugins: [
+            dts()
+        ]
     };
 
     return config;
