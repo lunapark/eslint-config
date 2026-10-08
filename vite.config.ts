@@ -4,6 +4,12 @@ import { defineConfig } from "vite";
 
 import packageDefinition from "./package.json";
 
+const peers = Object.keys(packageDefinition.peerDependencies || {});
+
+function isExternal(id: string) {
+    return id.startsWith("node:") || peers.some((peer) => id === peer || id.startsWith(`${peer}/`));
+}
+
 export default defineConfig(() => {
     const config: UserConfig = {
         build: {
@@ -18,7 +24,7 @@ export default defineConfig(() => {
                 name: "@luna-park/eslint-config"
             },
             rollupOptions: {
-                external: [...Object.keys(packageDefinition.peerDependencies || {}), /^node:/]
+                external: isExternal
             }
         },
         plugins: [
